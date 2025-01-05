@@ -1,0 +1,39 @@
+
+.animated-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .animated-card-enter {
+    transform: translateX(100%);
+  }
+  
+  .animated-card-exit {
+    transform: translateX(-100%);
+  }
+  .animated-card {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  
+  .animated-card-enter {
+    opacity: 0;
+  }
+  
+  .animated-card-exit {
+    opacity: 0;
+  }
+
+  .btn-primary,.btn-secondary{
+    width: 100px;
+    height: 50px;
+   
+  }
+  .btn-primary{
+    margin-left: 100px;
+    margin-top: -170px;
+  } 
+  .btn-secondary{
+   margin-right: 100px;
+   margin-top: -170px;
+  
+  }
